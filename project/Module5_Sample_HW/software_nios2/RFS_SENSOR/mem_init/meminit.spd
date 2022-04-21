@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/top_qsys_nios_system_onchip_memory2.dat" type="DAT" initParamName="INIT_FILE" memoryPath="nios_system.onchip_memory2" />
+<file path="hdl_sim/top_qsys_nios_system_shared_memory.dat" type="DAT" initParamName="INIT_FILE" memoryPath="nios_system.shared_memory" />
+<file path="top_qsys_nios_system_onchip_memory2.hex" type="HEX" initParamName="INIT_FILE" memoryPath="nios_system.onchip_memory2" />
+<file path="top_qsys_nios_system_shared_memory.hex" type="HEX" initParamName="INIT_FILE" memoryPath="nios_system.shared_memory" />
+</simPackage>

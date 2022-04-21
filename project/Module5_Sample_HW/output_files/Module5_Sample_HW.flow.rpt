@@ -1,0 +1,168 @@
+Flow report for Module5_Sample_HW
+Thu Apr 21 01:28:24 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Thu Apr 21 01:27:07 2022       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; Module5_Sample_HW                           ;
+; Top-level Entity Name           ; top                                         ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEBA6U23I7                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 4,025 / 41,910 ( 10 % )                     ;
+; Total registers                 ; 5913                                        ;
+; Total pins                      ; 207 / 314 ( 66 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 1,485,824 / 5,662,720 ( 26 % )              ;
+; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 1 / 4 ( 25 % )                              ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 04/21/2022 01:15:49 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Module5_Sample_HW   ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                          ;
++---------------------------------------+------------------------------------------------------------------------+-------------------+-----------------------------------------+------------+
+; Assignment Name                       ; Value                                                                  ; Default Value     ; Entity Name                             ; Section Id ;
++---------------------------------------+------------------------------------------------------------------------+-------------------+-----------------------------------------+------------+
+; COMPILER_SIGNATURE_ID                 ; 105852885508149.165052174003012                                        ; --                ; --                                      ; --         ;
+; ECO_REGENERATE_REPORT                 ; On                                                                     ; Off               ; --                                      ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/alt_types.pre.h                ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/emif.pre.xml                   ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/sdram_io.pre.h                 ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/sequencer.pre.c                ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/sequencer.pre.h                ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/sequencer_auto.pre.h           ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/sequencer_defines.pre.h        ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/system.pre.h                   ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/sequencer/tclrpt.pre.h                   ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; top_qsys/synthesis/submodules/hps.pre.xml                              ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; HPS_PARTITION                         ; On                                                                     ; --                ; top_qsys_hps_system_hps_0_hps_io_border ; --         ;
+; MAX_CORE_JUNCTION_TEMP                ; 100                                                                    ; --                ; --                                      ; --         ;
+; MIN_CORE_JUNCTION_TEMP                ; -40                                                                    ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; ip/altsource_probe/hps_reset_bb.v                                      ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/../top_qsys.cmp                                     ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/../../C                                             ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/top_qsys_hps_system_hps_0_hps.svd                   ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/../../top_qsys.qsys                                 ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/alt_types.pre.h                ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/emif.pre.xml                   ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/sdram_io.pre.h                 ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/sequencer.pre.c                ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/sequencer.pre.h                ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/sequencer_auto.pre.h           ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/sequencer_defines.pre.h        ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/system.pre.h                   ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/sequencer/tclrpt.pre.h                   ; --                ; --                                      ; --         ;
+; MISC_FILE                             ; top_qsys/synthesis/submodules/hps.pre.xml                              ; --                ; --                                      ; --         ;
+; PARTITION_COLOR                       ; -- (Not supported for targeted family)                                 ; --                ; top                                     ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL   ; -- (Not supported for targeted family)                                 ; --                ; top                                     ; Top        ;
+; PARTITION_NETLIST_TYPE                ; -- (Not supported for targeted family)                                 ; --                ; top                                     ; Top        ;
+; POWER_BOARD_THERMAL_MODEL             ; None (CONSERVATIVE)                                                    ; --                ; --                                      ; --         ;
+; POWER_PRESET_COOLING_SOLUTION         ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                  ; --                ; --                                      ; --         ;
+; PROJECT_OUTPUT_DIRECTORY              ; output_files                                                           ; --                ; --                                      ; --         ;
+; SEARCH_PATH                           ; software_nios2/RFS_SENSOR/mem_init/                                    ; --                ; --                                      ; --         ;
+; SLD_FILE                              ; top_qsys/synthesis/top_qsys.regmap                                     ; --                ; --                                      ; --         ;
+; SLD_FILE                              ; top_qsys/synthesis/top_qsys.debuginfo                                  ; --                ; --                                      ; --         ;
+; SLD_INFO                              ; QSYS_NAME top_qsys HAS_SOPCINFO 1 GENERATION_ID 1650516452             ; --                ; top_qsys                                ; --         ;
+; SOPCINFO_FILE                         ; top_qsys/synthesis/../../top_qsys.sopcinfo                             ; --                ; --                                      ; --         ;
+; SYNTHESIS_ONLY_QIP                    ; On                                                                     ; --                ; --                                      ; --         ;
+; TOP_LEVEL_ENTITY                      ; top                                                                    ; Module5_Sample_HW ; --                                      ; --         ;
+; USE_DLL_FREQUENCY_FOR_DQS_DELAY_CHAIN ; On                                                                     ; Off               ; --                                      ; --         ;
++---------------------------------------+------------------------------------------------------------------------+-------------------+-----------------------------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:02:18     ; 1.9                     ; 5421 MB             ; 00:04:08                           ;
+; Fitter               ; 00:03:45     ; 1.3                     ; 7458 MB             ; 00:06:11                           ;
+; Assembler            ; 00:00:23     ; 1.0                     ; 4981 MB             ; 00:00:20                           ;
+; Timing Analyzer      ; 00:01:15     ; 1.5                     ; 6104 MB             ; 00:01:37                           ;
+; Total                ; 00:07:41     ; --                      ; --                  ; 00:12:16                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-NE4GVDG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-NE4GVDG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-NE4GVDG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-NE4GVDG  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Module5_Sample_HW -c Module5_Sample_HW
+quartus_fit --read_settings_files=off --write_settings_files=off Module5_Sample_HW -c Module5_Sample_HW
+quartus_asm --read_settings_files=off --write_settings_files=off Module5_Sample_HW -c Module5_Sample_HW
+quartus_sta Module5_Sample_HW -c Module5_Sample_HW
+
+
+
